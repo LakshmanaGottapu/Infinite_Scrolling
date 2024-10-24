@@ -1,0 +1,21 @@
+.card{
+  opacity: 0;
+  border: 2px solid black;
+  width: 7rem;
+  text-align: center;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bolder;
+  margin-block: 2rem;
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  border-radius: 15%;
+  background-color: lightgreen;
+  box-shadow: 2px 2px black;
+  transform: translateX(40%);
+  transition: opacity 300ms, transform 200ms;
+}
+.card.show{
+  opacity: 1;
+  transform: translateX(0);
+}
